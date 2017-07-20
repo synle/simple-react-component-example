@@ -1,3 +1,5 @@
-export default const Util = {
+const Util = {
 	getValue: (yourValue) => yourValue + ': ' + 'new value'
 }
+
+export default Util 
