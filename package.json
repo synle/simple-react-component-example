@@ -2,9 +2,9 @@
   "name": "simple-react-component-example",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-	"build": "./node_modules/babel-cli/bin/babel.js index.es6 --out-file dist/index.js; cat dist/index.js",
+	"build": "./node_modules/.bin/babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
