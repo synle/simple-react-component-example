@@ -1,5 +1,5 @@
-const Util = {
-	getValue: (yourValue) => yourValue + ': ' + 'new value'
+const RealUtil = {
+	getValue: (yourValue) => yourValue + ': ' + 'new value 123'
 }
 
-export default Util 
+export default RealUtil 

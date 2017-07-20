@@ -1,3 +1,4 @@
+//import "babel-register";
 import util from './Util.es6'
 
 const finalutil = {

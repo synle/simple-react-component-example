@@ -14,6 +14,5 @@ var finalutil = {
 	getValue: function getValue() {
 		return _Util2.default.getValue(Date.now());
 	}
-};
-
+}; //import "babel-register";
 exports.default = finalutil;
